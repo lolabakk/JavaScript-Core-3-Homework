@@ -11,16 +11,16 @@
 var reversed;
 let capitilised;
 
-// Function that reverses and capitlises text
-exports function reverseAndCaptilise(text) 
-  var capitlised = text.toUpper()
-  reversed = capitilised.split('').reverse().join('') 
+// Function that reverses and capitalises text
+exports function reverseAndCapitalise(text) 
+  var capitalised = text.toUpper()
+  reversed = capitalised.split('').reverse().join('') 
 
   return reversed
   }
 
-// Function that returns text with every other letter capitlised
-export function everyOtherLetterCapitilised(text) {
+// Function that returns text with every other letter capitalised
+export function everyOtherLetterCapitalised(text) {
   for (i==0; i++; i<text.length) {
       if (i/2==0) {
        text[i] = text[i].toUpperCase() 
